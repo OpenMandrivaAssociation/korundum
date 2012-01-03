@@ -35,7 +35,6 @@ A kde4 bindings for Ruby language.
 %ruby_sitearchdir/plasma_applet.so
 %ruby_sitearchdir/okular.so
 %ruby_sitearchdir/kate.so
-%ruby_sitearchdir/akonadi.so
 %ruby_sitelibdir/KDE
 %ruby_sitelibdir/khtml
 %ruby_sitelibdir/ktexteditor
@@ -44,7 +43,6 @@ A kde4 bindings for Ruby language.
 %ruby_sitelibdir/solid
 %ruby_sitelibdir/okular
 %ruby_sitelibdir/kio
-%ruby_sitelibdir/akonadi
 %_kde_appsdir/plasma_applet_ruby_clock
 %_kde_appsdir/plasma_ruby_digital_clock
 %_kde_services/*.desktop

@@ -10,6 +10,7 @@ Source: ftp://ftp.kde.org/pub/kde/stable/%version/src/%name-%version.tar.bz2
 BuildRequires: ruby-qt4-devel >= 1:%version
 BuildRequires: smokekde-devel >= 1:%version
 BuildRequires: pkgconfig(shared-desktop-ontologies)
+BuildRequires: akonadi-devel
 
 Requires: ruby-qt4 >= 1:%version
 

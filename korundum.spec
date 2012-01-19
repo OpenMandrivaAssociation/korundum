@@ -1,6 +1,6 @@
 Name: korundum
 Summary: KDE bindings for Ruby
-Version: 4.7.97
+Version: 4.8.0
 Release: 1
 Epoch: 1
 Group: Development/KDE and Qt

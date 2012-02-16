@@ -25,6 +25,7 @@ A kde4 bindings for Ruby language.
 %files
 %_kde_bindir/krubyapplication
 %_kde_libdir/kde4/krubypluginfactory.so
+%ruby_sitearchdir/akonadi.so
 %ruby_sitearchdir/khtml.so
 %ruby_sitearchdir/kio.so
 %ruby_sitearchdir/korundum4.so
@@ -36,6 +37,7 @@ A kde4 bindings for Ruby language.
 %ruby_sitearchdir/okular.so
 %ruby_sitearchdir/kate.so
 %ruby_sitelibdir/KDE
+%ruby_sitelibdir/akonadi
 %ruby_sitelibdir/khtml
 %ruby_sitelibdir/ktexteditor
 %ruby_sitelibdir/soprano

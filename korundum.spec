@@ -1,12 +1,12 @@
 Name:		korundum
 Summary:	KDE bindings for Ruby
-Version:	4.8.97
-Release:	1
+Version: 4.9.0
+Release: 1
 Epoch:		1
 Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
 URL:		http://www.kde.org
-Source:		ftp://ftp.kde.org/pub/kde/unstable/%{version}/src/%{name}-%{version}.tar.xz
+Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	ruby-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel >= 1:%{version}
 BuildRequires:	pkgconfig(shared-desktop-ontologies)

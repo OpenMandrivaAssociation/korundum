@@ -1,13 +1,12 @@
-Name:		korundum
 Summary:	KDE bindings for Ruby
+Name:		korundum
 Version:	4.10.5
 Release:	1
 Epoch:		1
-Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
-URL:		http://www.kde.org
+Group:		Development/KDE and Qt
+Url:		http://www.kde.org
 Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
-Patch0:		korundum-4.9.0-ruby1.9.patch
 BuildRequires:	ruby-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel >= 1:%{version}
 BuildRequires:	pkgconfig(shared-desktop-ontologies)
@@ -69,7 +68,6 @@ ruby-kde4 devel files.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %cmake_kde4
@@ -81,6 +79,7 @@ ruby-kde4 devel files.
 %changelog
 * Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.5-1
 - New version 4.10.5
+- Drop no longer needed ruby1.9 patch
 
 * Wed Jun 05 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.4-1
 - New version 4.10.4

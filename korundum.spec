@@ -1,23 +1,23 @@
-Summary:	KDE bindings for Ruby
+Summary:	KDE4 bindings for Ruby
 Name:		korundum
 Version:	4.13.2
 Release:	1
 Epoch:		1
-License:	GPLv2 LGPLv2
+License:	GPLv2+ and LGPLv2.1+
 Group:		Development/KDE and Qt
 Url:		http://www.kde.org
-Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	ruby-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel >= 1:%{version}
-BuildRequires:	pkgconfig(shared-desktop-ontologies)
 BuildRequires:	pkgconfig(akonadi)
+BuildRequires:	pkgconfig(shared-desktop-ontologies)
 Requires:	ruby-qt4 >= 1:%{version}
 Obsoletes:	ruby-kde4 < 1:4.6.90
 Provides:	ruby-kde4 = %{EVRD}
 Provides:	kderuby = %{EVRD}
 
 %description
-A kde4 bindings for Ruby language.
+A KDE4 bindings for Ruby language.
 
 %files
 %{_kde_bindir}/krubyapplication

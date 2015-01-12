@@ -32,7 +32,6 @@ A KDE4 bindings for Ruby language.
 %{ruby_sitearchdir}/nepomuk.so
 %{ruby_sitearchdir}/plasma_applet.so
 %{ruby_sitearchdir}/okular.so
-%{ruby_sitearchdir}/kate.so
 %{ruby_sitelibdir}/KDE
 %{ruby_sitelibdir}/akonadi
 %{ruby_sitelibdir}/khtml

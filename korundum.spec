@@ -1,7 +1,7 @@
 Summary:	KDE4 bindings for Ruby
 Name:		korundum
 Version:	4.14.3
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPLv2+ and LGPLv2.1+
 Group:		Development/KDE and Qt

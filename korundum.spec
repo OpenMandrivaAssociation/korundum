@@ -5,7 +5,7 @@ Release:	3
 Epoch:		1
 License:	GPLv2+ and LGPLv2.1+
 Group:		Development/KDE and Qt
-Url:		http://www.kde.org
+Url:		https://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	ruby-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel >= 1:%{version}

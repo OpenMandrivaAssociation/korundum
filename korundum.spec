@@ -7,6 +7,7 @@ License:	GPLv2+ and LGPLv2.1+
 Group:		Development/KDE and Qt
 Url:		https://www.kde.org
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
+BuildRequires:	make
 BuildRequires:	ruby-qt4-devel >= 1:%{version}
 BuildRequires:	smokekde-devel >= 1:%{version}
 BuildRequires:	pkgconfig(akonadi)
